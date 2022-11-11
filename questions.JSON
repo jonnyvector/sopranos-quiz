@@ -1,0 +1,130 @@
+[
+  {
+    "question": "What is Tony's Mom's Name?",
+    "choice1": "Karen",
+    "choice2": "Wendy",
+    "choice3": "Livia",
+    "choice4": "Adriana",
+    "answer": 3
+  },
+  {
+    "question": "Which well-renowned actor played Tony Soprano's favorite cousin, Tony Blundetto?",
+    "choice1": "Joe Pesci",
+    "choice2": "Steve Buscemi",
+    "choice3": "John Toturro",
+    "choice4": "Robert Deniro",
+    "answer": 2
+  },
+  {
+    "question": "What was Janice's estranged son's name?",
+    "choice1": "Emilio",
+    "choice2": "Rainbow",
+    "choice3": "Harpo",
+    "choice4": "Anthony",
+    "answer": 3
+  },
+  {
+    "question": "What Is The Name Of Tony & Janice's Sister?",
+    "choice1": "Rosalie",
+    "choice2": "Kelly",
+    "choice3": "Barbara",
+    "choice4": "Lorraine",
+    "answer": 3
+  },
+  {
+    "question": "Which Oscar-Nominated Actress Appeared In \"The Test Dream\"",
+    "choice1": "Annette Bening",
+    "choice2": "Glenn Close",
+    "choice3": "Diane Ladd",
+    "choice4": "Jane Alexander",
+    "answer": 1
+  },
+  {
+    "question": "Where in Italy did Tony's family come from?",
+    "choice1": "Avellino",
+    "choice2": "Naples",
+    "choice3": "Verona",
+    "choice4": "Amalfi",
+    "answer": 1
+  },
+  {
+    "question": "What is Silvio's club called?",
+    "choice1": "The Crazy Horse",
+    "choice2": "Bada-Bing",
+    "choice3": "Holsten's",
+    "choice4": "Members Only",
+    "answer": 2
+  },
+  {
+    "question": "How does Adriana's dog, Cosette, die?",
+    "choice1": "Hit by a car",
+    "choice2": "Chris gets high and sits on her",
+    "choice3": "Burned in a fire",
+    "choice4": "Chokes on Chris' drugs",
+    "answer": 2
+  },
+  {
+    "question": "In Tony's fever dream during the season 2 finale, Funhouse, Big Pussy reveals himself to Tony as what animal?",
+    "choice1": "dog",
+    "choice2": "lizard",
+    "choice3": "fish",
+    "choice4": "rat",
+    "answer": 3
+  },
+  {
+    "question": "What is Carmela's maiden name?",
+    "choice1": "DeBastiani",
+    "choice2": "DeAngelis",
+    "choice3": "DeClemente",
+    "choice4": "DeCarolis",
+    "answer": 2
+  },
+  {
+    "question": "Which Video Game Do We See Tony Playing With AJ?",
+    "choice1": "Mario Kart",
+    "choice2": "Doom 2",
+    "choice3": "GoldenEye",
+    "choice4": "Star Fox",
+    "answer": 1
+  },
+  {
+    "question": "What is the name of Tony's beloved horse?",
+    "choice1": "Pretty Copper",
+    "choice2": "Picasso",
+    "choice3": "Pie-O-My",
+    "choice4": "Paloma",
+    "answer": 3
+  },
+  {
+    "question": "In which nursing home did Tony place his mother?",
+    "choice1": "Running River",
+    "choice2": "Opal Cottage",
+    "choice3": "Shady Acres",
+    "choice4": "Green Grove",
+    "answer": 4
+  },
+  {
+    "question": "What is the name of Chris' torture porn movie?",
+    "choice1": "Hacksaw",
+    "choice2": "Cleaver",
+    "choice3": "Hammer",
+    "choice4": "Sickle",
+    "answer": 2
+  },
+  {
+    "question": "How did Johnny Sack die?",
+    "choice1": "Lung Cancer",
+    "choice2": "Heart Attack",
+    "choice3": "Hit by a car",
+    "choice4": "Liver cirrhosis",
+    "answer": 1
+  },
+  {
+    "question": "What's the name of the Stripper that Ralph Ciffaretto killed?",
+    "choice1": "Haylee",
+    "choice2": "Ceecee",
+    "choice3": "Kaylee",
+    "choice4": "Tracee",
+    "answer": 4
+  }
+]

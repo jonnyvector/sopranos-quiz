@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Congratu-friggin-lations</title>
+    <link rel="stylesheet" href="app.css" />
+    <script defer src="end.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="button"
+            id="saveScoreButton"
+            onClick="saveHighScore(event)"
+            disabled
+          >
+            Save Score
+          </button>
+          <a href="/game.html" class="button" id="endButtons">Play Again</a>
+          <a href="/highscores.html" id="endButtons" class="button"
+            >High Scores</a
+          >
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

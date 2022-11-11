@@ -1,0 +1,330 @@
+:root {
+  background-color: #ecf5ff;
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "mobstersregular";
+  src: url("mobsters-webfont.woff2") format("woff2"),
+    url("mobsters-webfont.woff") format("woff"),
+    url("Mobsters.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "mobstersregular";
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+  width: 100%;
+  -webkit-background-size: cover;
+  background-image: url("images/daboys.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /* background-repeat: no-repeat; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 7.4rem;
+  margin-bottom: 5rem;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.justify-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.score > h1 {
+  text-shadow: 2px 2px #dc3545;
+  color: white;
+}
+
+#game-title {
+  color: white;
+  font-size: 12rem;
+  text-shadow: 0.5rem 0.5rem #dc3545;
+}
+
+#question {
+  text-align: center;
+  /* background-color: black; */
+  text-shadow: 2px 2px #dc3545;
+
+  padding: 0.35rem 4.7rem;
+  color: white;
+  font-size: 5rem;
+}
+
+.choice-container {
+  display: flex;
+  margin: 0.1rem;
+  height: 5rem;
+  width: 50rem;
+  border: 0.1rem solid black;
+  background-color: white;
+  color: white;
+  /* box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem #dc3545; */
+  /* padding: 1rem 2rem; */
+}
+
+/* LOADER */
+
+#loader {
+  border: 1.6rem groove white;
+  border-radius: 50%;
+  border-top: 1.6rem solid #dc3545;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (hover: hover) {
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #dc3545;
+    transform: translateY(-0.1rem);
+    transition: transform 350ms;
+  }
+}
+
+.choice-prefix {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-right: 0rem;
+  border: 0.1rem solid rgb(15, 12, 12);
+}
+
+.choice-text {
+  padding-left: 1rem;
+  width: 100%;
+  display: flex;
+  font-size: 2.5rem;
+  align-items: center;
+}
+
+.correct {
+  background-color: #28a745;
+  /* font-size: 10rem; */
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 2.5rem;
+  width: 15rem;
+  border: 0.2rem ridge #dc3545;
+  color: white;
+  text-shadow: 0.1rem 0.1rem #dc3545;
+  text-decoration: none;
+  background-color: black;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1rem 0 #dc3545;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.button[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.progress-text > h1 {
+  /* border: 0.1rem solid #dc3545; */
+  /* background-color: black; */
+  text-shadow: 2px 2px #dc3545;
+  color: white;
+}
+
+/* END PAGE */
+
+#finalScore {
+  color: white;
+  font-size: 11rem;
+  text-shadow: 2px 2px #dc3545;
+}
+/* FORMS */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  width: 30rem;
+  height: 5rem;
+  font-size: 2rem;
+  /* box-shadow: 0 0.1rem 1.4rem 0 #dc3545; */
+}
+
+#endButtons,
+#saveScoreButton {
+  text-align: center;
+  margin: 0.2rem;
+  height: 5rem;
+  width: 30rem;
+  color: white;
+  /* box-shadow: 0 0.1rem 1.4rem 0 #dc3545; */
+  background-color: black;
+  /* padding: 0.2rem; */
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-image: url("images/daboys.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  #game-title,
+  #finalScore {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #start-button,
+  #high-scores {
+    text-align: center;
+    border-style: groove;
+    width: 15rem;
+    margin: 1rem;
+    justify-content: space-between;
+  }
+
+  #endButtons,
+  #saveScoreButton {
+    width: 25rem;
+  }
+
+  input {
+    width: 25rem;
+  }
+
+  #question {
+    /* background-color: black; */
+    text-shadow: 2px 2px #dc3545;
+
+    padding: 0.35rem 4.7rem;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .choice-container {
+    display: flex;
+    width: 28rem;
+    border: 0.1rem solid black;
+    background-color: white;
+    color: white;
+    /* padding: 1rem 2rem; */
+  }
+
+  .correct {
+    background-color: #28a745;
+    /* font-size: 10rem; */
+  }
+
+  .incorrect {
+    background-color: #dc3545;
+  }
+}
